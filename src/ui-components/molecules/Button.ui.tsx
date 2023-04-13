@@ -1,8 +1,9 @@
 import styled from 'styled-components'
 import Spacing from '../../styles/Spacing'
 import Palette from '../../styles/Palette'
+import { MouseEventHandler } from 'react'
 type ButtonStyledProps = {
-  action?: string
+  action?: MouseEventHandler<HTMLButtonElement>
   variant?: string
   width?: string
   height?: string
