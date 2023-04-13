@@ -43,7 +43,7 @@ const Button = ({
 }: ButtonStyledProps) => {
   return (
     <ButtonStyled
-      action={action}
+      onClick={action}
       variant={variant}
       width={width}
       height={height}
